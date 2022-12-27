@@ -1,0 +1,20 @@
+.container {
+  width: 80vw;
+  height: 100vh;
+  padding-top: 3vh;
+  margin: 0 auto;
+  header {
+    margin-bottom: 3vh;
+    // text-align: center;
+  }
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .df {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

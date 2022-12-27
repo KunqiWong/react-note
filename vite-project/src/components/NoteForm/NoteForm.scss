@@ -1,0 +1,13 @@
+.form {
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flexEnd {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.ant-form-item-label > label {
+  font-size: 20px !important;
+}

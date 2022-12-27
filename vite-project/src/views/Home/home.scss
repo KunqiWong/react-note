@@ -1,0 +1,47 @@
+.container {
+  width: 80vw;
+  height: 100vh;
+  padding-top: 3vh;
+  margin: 0 auto;
+  header {
+    margin-bottom: 3vh;
+  }
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dfs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.card {
+  width: 290px;
+  margin: 1vh;
+  font-size: 20px;
+  text-align: center;
+  transition: all ease-in-out 100ms;
+  border-color: #ccc;
+  &:hover {
+    translate: 0 -5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+.ant-form-item-label > label {
+  font-size: 20px !important;
+}
+.edit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.badges {
+  margin: 2vw;
+  max-height: 30vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  .badge {
+    cursor: pointer;
+    margin: 1vw;
+  }
+}
